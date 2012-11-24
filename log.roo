@@ -1,0 +1,9 @@
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-11-23 23:01:10
+project --topLevelPackage com.solution4future --projectName example-crm --java 6 --packaging JAR
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-11-23 23:01:11
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-11-23 23:01:16
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-11-23 23:03:54
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-11-23 23:07:00
+hint
+hint
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
