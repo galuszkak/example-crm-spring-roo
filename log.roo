@@ -7,3 +7,48 @@ project --topLevelPackage com.solution4future --projectName example-crm --java 6
 hint
 hint
 jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-01-30 11:38:30
+hint
+entity jpa --class com.solution4future.models.Customer 
+hint
+field string --fieldName first_name
+// [failed] field string --fieldName first_name --notNull
+field string --fieldName last_name --notNull
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-01-30 11:51:50
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-01-30 12:04:28
+entity jpa --class ~.models.Customer
+field string --fieldName first_name --notNull
+field string --fieldName last_name --notNull
+download status
+download accept terms of use
+download status
+download view 
+field string --fieldName phone 
+enum type --class ~.enums.Status
+focus --class ~.models.Customer
+field enum --fieldName status --type ~.enums.Status
+osgi obr url add --url http://spring-roo-repository.springsource.org/repository.xml
+osgi obr start --bundleSymbolicName org.springframework.roo.wrapping.protobuf-java-lite
+osgi obr url remove --url http://spring-roo-repository.springsource.org/repository.xml
+// [failed] entity jpa --class ~.models.Action
+entity jpa --class ~.models.CustomerAction
+field date --fieldName actionDate --type java.util.Date --persistenceType JPA_TIMESTAMP 
+field string --fieldName description --notNull
+// [failed] enum type --class ~.enums.Action
+enum type --class ~.enums.ActionType
+entity jpa --class ~.models.Offer
+entity jpa --class ~.models.Organization
+field string --fieldName name --notNull --sizeMin 3 --sizeMax 40
+focus --class ~.models.Customer
+field boolean --fieldName isSpecialOffer --notNull 
+field reference --fieldName organization --type ~.models.Organization
+field reference --fieldName offer --type ~.models.Offer
+field set --fieldName actions --type ~.models.CustomerAction
+focus --class ~.models.Offer
+// [failed] field number --fieldName totalDiscount --type java.lang.Double --digitsFraction 2 --notNull 
+field number --fieldName totalDiscount --type java.lang.Double --digitsFraction 2 --digitsInteger 5
+field string --fieldName title --notNull 
+field string --fieldName description --notNull 
+web mvc setup 
+web mvc all --package com.solution4future.controllers
+web gwt setup
