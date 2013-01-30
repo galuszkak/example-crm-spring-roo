@@ -1,0 +1,30 @@
+<aspectj>
+<aspects>
+<aspect name="com.solution4future.models.Organization_Roo_ToString"/>
+<aspect name="com.solution4future.models.Organization_Roo_Jpa_Entity"/>
+<aspect name="com.solution4future.controllers.OfferController_Roo_Controller"/>
+<aspect name="com.solution4future.models.Customer_Roo_Configurable"/>
+<aspect name="com.solution4future.models.CustomerAction_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.solution4future.controllers.CustomerController_Roo_Controller"/>
+<aspect name="com.solution4future.controllers.OrganizationController_Roo_Controller"/>
+<aspect name="com.solution4future.models.Customer_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.solution4future.models.Customer_Roo_JavaBean"/>
+<aspect name="com.solution4future.models.Customer_Roo_ToString"/>
+<aspect name="com.solution4future.controllers.CustomerActionController_Roo_Controller"/>
+<aspect name="com.solution4future.controllers.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.solution4future.models.Offer_Roo_Configurable"/>
+<aspect name="com.solution4future.models.CustomerAction_Roo_Configurable"/>
+<aspect name="com.solution4future.models.Offer_Roo_JavaBean"/>
+<aspect name="com.solution4future.models.Offer_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.solution4future.models.Offer_Roo_Jpa_Entity"/>
+<aspect name="com.solution4future.models.Customer_Roo_Jpa_Entity"/>
+<aspect name="com.solution4future.models.Organization_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.solution4future.models.CustomerAction_Roo_JavaBean"/>
+<aspect name="com.solution4future.models.CustomerAction_Roo_Jpa_Entity"/>
+<aspect name="com.solution4future.models.Offer_Roo_ToString"/>
+<aspect name="com.solution4future.models.Organization_Roo_JavaBean"/>
+<aspect name="com.solution4future.models.Organization_Roo_Configurable"/>
+<aspect name="com.solution4future.models.CustomerAction_Roo_ToString"/>
+</aspects>
+</aspectj>
+

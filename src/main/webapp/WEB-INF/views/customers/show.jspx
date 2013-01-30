@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_solution4future_models_Customer" object="${customer}" path="/customers" z="f/B19kpT8MnF9xF6Q0A71pIicHA=">
+        <field:display field="firstName" id="s_com_solution4future_models_Customer_firstName" object="${customer}" z="kITqfPNlilIb/TC7TLCf4slx8XQ="/>
+        <field:display field="lastName" id="s_com_solution4future_models_Customer_lastName" object="${customer}" z="LRwBjgJ/EA5N/4ZsCUTdNjTlhao="/>
+        <field:display field="phone" id="s_com_solution4future_models_Customer_phone" object="${customer}" z="cAtiyxQpn1DjpNb3hE/TCpPILu4="/>
+        <field:display field="status" id="s_com_solution4future_models_Customer_status" object="${customer}" z="7BLCgatNj4rFDca0VuVfjFxsX3o="/>
+        <field:display field="isSpecialOffer" id="s_com_solution4future_models_Customer_isSpecialOffer" object="${customer}" z="+B+2RWNY651ggCHdYrIEJz5BiJw="/>
+        <field:display field="organization" id="s_com_solution4future_models_Customer_organization" object="${customer}" z="b/Wh66cVMerLVK0a4UpWc9VaIYw="/>
+        <field:display field="offer" id="s_com_solution4future_models_Customer_offer" object="${customer}" z="ANkkAY1paw/kSsyTYHGCWOgTZ4E="/>
+        <field:display field="actions" id="s_com_solution4future_models_Customer_actions" object="${customer}" z="/YHov+eTiI3/upDYU2H4piizVM0="/>
+    </page:show>
+</div>

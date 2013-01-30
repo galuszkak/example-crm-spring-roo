@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_solution4future_models_CustomerAction" modelAttribute="customerAction" path="/customeractions" versionField="Version" z="oKQo/Msqxzq2qOAm8541AW281Xg=">
+        <field:datetime dateTimePattern="${customerAction_actiondate_date_format}" field="actionDate" id="c_com_solution4future_models_CustomerAction_actionDate" z="r3ZQK1zBL1WUseHbAItS99AEZ1E="/>
+        <field:input field="description" id="c_com_solution4future_models_CustomerAction_description" required="true" z="S8RFpVCfrTvff/cO5qIbyyAp9co="/>
+    </form:update>
+</div>
