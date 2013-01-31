@@ -83,13 +83,7 @@
         <servlet-name>example-crm</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
-    
-    
-    
-    <servlet-mapping>
-        <servlet-name>requestFactory</servlet-name>
-        <url-pattern>/gwtRequest</url-pattern>
-    </servlet-mapping>
+
     <session-config>
         <session-timeout>10</session-timeout>
     </session-config>
