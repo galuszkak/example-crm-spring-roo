@@ -1,0 +1,28 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-01 02:04:30
+project --topLevelPackage com.solution4future --projectName example-crm-roo --java 6 --packaging WAR
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-01 02:04:31
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-01 02:04:35
+web mvc setup
+hint
+jpa setup --database HYPERSONIC_IN_MEMORY --provider HIBERNATE 
+// [failed] entity jpa --class ~.models.Customer
+// [failed] entity jpa --class ~.models.CustomerAction
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-01 02:20:35
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-01 02:20:48
+// [failed] focus --class com.solution4future.as
+entity jpa --class com.solution4future.models.Customer
+entity jpa --class com.solution4future.models.CustomerAction
+entity jpa --class com.solution4future.models.Offer
+entity jpa --class com.solution4future.models.Organization
+enum type --class ~.enums.Status
+enum type --class ~.enums.ActionType
+focus --class ~.models.Customer
+focus --class ~.models.CustomerAction
+field reference --fieldName customer --type ~.models.Customer
+web mvc all --package com.solution4future.models
+focus --class ~.models.CustomerAction
+field enum --fieldName type --type ~.enums.ActionType
+web mvc all --package com.solution4future.controllers 
+web mvc all --package com.solution4future.controllers 
+web mvc all --package com.solution4future.controllers 
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-03 10:47:55
