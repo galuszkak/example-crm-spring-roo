@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
-    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
-    <jsp:output omit-xml-declaration="yes"/>
-    <page:show id="ps_com_solution4future_models_CustomerAction" object="${customeraction}" path="/customeractions" z="EPjter2cxmfOocD7IdE4LDZrgNU=">
-        <field:display date="true" dateTimePattern="${customerAction_actiondate_date_format}" field="actionDate" id="s_com_solution4future_models_CustomerAction_actionDate" object="${customeraction}" z="HcX9BY3iCDiOtqg5AGcZ2Zg6EOk="/>
-        <field:display field="description" id="s_com_solution4future_models_CustomerAction_description" object="${customeraction}" z="cqaoGyHPDxn293oH9ei3lRCtq8s="/>
-    </page:show>
-</div>
